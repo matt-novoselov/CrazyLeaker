@@ -1,0 +1,25 @@
+body {
+background-color: #121212;
+background-image: url(fon.png);
+}
+.center {
+  display: block;
+  margin-top: 50px;
+margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ @font-face { font-family: Delicious; src: url('icescream.otf'); }
+a { font-family: Delicious, sans-serif; }
+.center2 {
+color:white;
+  margin-top: 10%;
+font-size: 300%;
+ border: 6px solid white;
+ border-radius: 10px; 
+    padding: 10px;
+width:400px;
+}
+a { 
+    text-decoration: none;
+   }
