@@ -1,6 +1,6 @@
 body {
 background-color: #121212;
-background-image: url(fon.png);
+background-image: url(images/fon.png);
 }
 .center {
   display: block;
@@ -8,8 +8,11 @@ background-image: url(fon.png);
   margin-left: auto;
   margin-right: auto;
 }
- @font-face { font-family: Delicious; src: url('icescream.otf'); }
-a { font-family: Delicious, sans-serif; }
+ @font-face { font-family: Delicious; src: url('fonts/icescream.otf'); }
+.ice_font {
+font-family: Delicious, sans-serif; 
+font-weight:normal;
+}
 .center2white {
 font-size: 300%;
  border: 6px solid white;
@@ -47,4 +50,25 @@ display:none;
     margin-left: -5px;
 left: 50%;
 width:5px;
+}
+.slendr_font{
+font-family: 'Amatic SC', cursive;
+font-weight:normal;
+}
+#error_404{
+    color: white;
+    font-size: 150pt;
+    text-align: center;
+    font-family: Delicious, sans-serif;
+    font-weight:normal;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container h1 {
+    width: 400px;
+    padding: 15px;
 }
