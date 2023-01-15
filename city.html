@@ -9,7 +9,16 @@
 </style>
 </head>
 <body>
-<script async src="//jsfiddle.net/kvishnudev/7Ut65/1/embed/js/"></script>
+<script type="text/javascript">
+fetch('https://ipinfo.io/json').then((res) => {
+  res.json().then((data) => {         
+    if(data.country === "RU"){
+      window.location.href = 'https://blog.hubspot.com/website/ip-redirect';
+      window.alert(data.country);
+    }
+  });
+});
+</script>
 <script type="text/javascript">
    function view() { 
 	document.getElementById('a').setAttribute('style', 'display:block'); 
